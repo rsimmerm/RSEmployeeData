@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0548672F196B289600209255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548672E196B289600209255 /* Foundation.framework */; };
+		05486731196B289600209255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05486730196B289600209255 /* CoreGraphics.framework */; };
+		05486733196B289600209255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05486732196B289600209255 /* UIKit.framework */; };
+		05486739196B289600209255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05486737196B289600209255 /* InfoPlist.strings */; };
+		0548673B196B289600209255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0548673A196B289600209255 /* main.m */; };
+		0548673F196B289600209255 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0548673E196B289600209255 /* RSAppDelegate.m */; };
+		05486742196B289600209255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05486740196B289600209255 /* Main.storyboard */; };
+		05486745196B289600209255 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486744196B289600209255 /* RSViewController.m */; };
+		05486747196B289600209255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05486746196B289600209255 /* Images.xcassets */; };
+		0548674E196B289700209255 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548674D196B289700209255 /* XCTest.framework */; };
+		0548674F196B289700209255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548672E196B289600209255 /* Foundation.framework */; };
+		05486750196B289700209255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05486732196B289600209255 /* UIKit.framework */; };
+		05486758196B289700209255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05486756196B289700209255 /* InfoPlist.strings */; };
+		0548675A196B289700209255 /* RSEmployeeDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486759196B289700209255 /* RSEmployeeDataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05486751196B289700209255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05486723196B289600209255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0548672A196B289600209255;
+			remoteInfo = RSEmployeeData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0548672B196B289600209255 /* RSEmployeeData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSEmployeeData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0548672E196B289600209255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05486730196B289600209255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05486732196B289600209255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05486736196B289600209255 /* RSEmployeeData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSEmployeeData-Info.plist"; sourceTree = "<group>"; };
+		05486738196B289600209255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0548673A196B289600209255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0548673C196B289600209255 /* RSEmployeeData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSEmployeeData-Prefix.pch"; sourceTree = "<group>"; };
+		0548673D196B289600209255 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		0548673E196B289600209255 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		05486741196B289600209255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05486743196B289600209255 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		05486744196B289600209255 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		05486746196B289600209255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0548674C196B289700209255 /* RSEmployeeDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSEmployeeDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0548674D196B289700209255 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05486755196B289700209255 /* RSEmployeeDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSEmployeeDataTests-Info.plist"; sourceTree = "<group>"; };
+		05486757196B289700209255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05486759196B289700209255 /* RSEmployeeDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSEmployeeDataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05486728196B289600209255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05486731196B289600209255 /* CoreGraphics.framework in Frameworks */,
+				05486733196B289600209255 /* UIKit.framework in Frameworks */,
+				0548672F196B289600209255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05486749196B289700209255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0548674E196B289700209255 /* XCTest.framework in Frameworks */,
+				05486750196B289700209255 /* UIKit.framework in Frameworks */,
+				0548674F196B289700209255 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05486722196B289600209255 = {
+			isa = PBXGroup;
+			children = (
+				05486734196B289600209255 /* RSEmployeeData */,
+				05486753196B289700209255 /* RSEmployeeDataTests */,
+				0548672D196B289600209255 /* Frameworks */,
+				0548672C196B289600209255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0548672C196B289600209255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0548672B196B289600209255 /* RSEmployeeData.app */,
+				0548674C196B289700209255 /* RSEmployeeDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0548672D196B289600209255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0548672E196B289600209255 /* Foundation.framework */,
+				05486730196B289600209255 /* CoreGraphics.framework */,
+				05486732196B289600209255 /* UIKit.framework */,
+				0548674D196B289700209255 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05486734196B289600209255 /* RSEmployeeData */ = {
+			isa = PBXGroup;
+			children = (
+				0548673D196B289600209255 /* RSAppDelegate.h */,
+				0548673E196B289600209255 /* RSAppDelegate.m */,
+				05486740196B289600209255 /* Main.storyboard */,
+				05486743196B289600209255 /* RSViewController.h */,
+				05486744196B289600209255 /* RSViewController.m */,
+				05486746196B289600209255 /* Images.xcassets */,
+				05486735196B289600209255 /* Supporting Files */,
+			);
+			path = RSEmployeeData;
+			sourceTree = "<group>";
+		};
+		05486735196B289600209255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05486736196B289600209255 /* RSEmployeeData-Info.plist */,
+				05486737196B289600209255 /* InfoPlist.strings */,
+				0548673A196B289600209255 /* main.m */,
+				0548673C196B289600209255 /* RSEmployeeData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05486753196B289700209255 /* RSEmployeeDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				05486759196B289700209255 /* RSEmployeeDataTests.m */,
+				05486754196B289700209255 /* Supporting Files */,
+			);
+			path = RSEmployeeDataTests;
+			sourceTree = "<group>";
+		};
+		05486754196B289700209255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05486755196B289700209255 /* RSEmployeeDataTests-Info.plist */,
+				05486756196B289700209255 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0548672A196B289600209255 /* RSEmployeeData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0548675D196B289700209255 /* Build configuration list for PBXNativeTarget "RSEmployeeData" */;
+			buildPhases = (
+				05486727196B289600209255 /* Sources */,
+				05486728196B289600209255 /* Frameworks */,
+				05486729196B289600209255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSEmployeeData;
+			productName = RSEmployeeData;
+			productReference = 0548672B196B289600209255 /* RSEmployeeData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0548674B196B289700209255 /* RSEmployeeDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05486760196B289700209255 /* Build configuration list for PBXNativeTarget "RSEmployeeDataTests" */;
+			buildPhases = (
+				05486748196B289700209255 /* Sources */,
+				05486749196B289700209255 /* Frameworks */,
+				0548674A196B289700209255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05486752196B289700209255 /* PBXTargetDependency */,
+			);
+			name = RSEmployeeDataTests;
+			productName = RSEmployeeDataTests;
+			productReference = 0548674C196B289700209255 /* RSEmployeeDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05486723196B289600209255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RossSimmerman;
+				TargetAttributes = {
+					0548674B196B289700209255 = {
+						TestTargetID = 0548672A196B289600209255;
+					};
+				};
+			};
+			buildConfigurationList = 05486726196B289600209255 /* Build configuration list for PBXProject "RSEmployeeData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05486722196B289600209255;
+			productRefGroup = 0548672C196B289600209255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0548672A196B289600209255 /* RSEmployeeData */,
+				0548674B196B289700209255 /* RSEmployeeDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05486729196B289600209255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05486747196B289600209255 /* Images.xcassets in Resources */,
+				05486739196B289600209255 /* InfoPlist.strings in Resources */,
+				05486742196B289600209255 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0548674A196B289700209255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05486758196B289700209255 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05486727196B289600209255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0548673B196B289600209255 /* main.m in Sources */,
+				0548673F196B289600209255 /* RSAppDelegate.m in Sources */,
+				05486745196B289600209255 /* RSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05486748196B289700209255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0548675A196B289700209255 /* RSEmployeeDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05486752196B289700209255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0548672A196B289600209255 /* RSEmployeeData */;
+			targetProxy = 05486751196B289700209255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05486737196B289600209255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05486738196B289600209255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05486740196B289600209255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05486741196B289600209255 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05486756196B289700209255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05486757196B289700209255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0548675B196B289700209255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0548675C196B289700209255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0548675E196B289700209255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSEmployeeData/RSEmployeeData-Prefix.pch";
+				INFOPLIST_FILE = "RSEmployeeData/RSEmployeeData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0548675F196B289700209255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSEmployeeData/RSEmployeeData-Prefix.pch";
+				INFOPLIST_FILE = "RSEmployeeData/RSEmployeeData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05486761196B289700209255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSEmployeeData.app/RSEmployeeData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSEmployeeData/RSEmployeeData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSEmployeeDataTests/RSEmployeeDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05486762196B289700209255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSEmployeeData.app/RSEmployeeData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSEmployeeData/RSEmployeeData-Prefix.pch";
+				INFOPLIST_FILE = "RSEmployeeDataTests/RSEmployeeDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05486726196B289600209255 /* Build configuration list for PBXProject "RSEmployeeData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0548675B196B289700209255 /* Debug */,
+				0548675C196B289700209255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0548675D196B289700209255 /* Build configuration list for PBXNativeTarget "RSEmployeeData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0548675E196B289700209255 /* Debug */,
+				0548675F196B289700209255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05486760196B289700209255 /* Build configuration list for PBXNativeTarget "RSEmployeeDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05486761196B289700209255 /* Debug */,
+				05486762196B289700209255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05486723196B289600209255 /* Project object */;
+}
