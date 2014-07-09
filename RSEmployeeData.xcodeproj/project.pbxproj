@@ -14,13 +14,17 @@
 		0548673B196B289600209255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0548673A196B289600209255 /* main.m */; };
 		0548673F196B289600209255 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0548673E196B289600209255 /* RSAppDelegate.m */; };
 		05486742196B289600209255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05486740196B289600209255 /* Main.storyboard */; };
-		05486745196B289600209255 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486744196B289600209255 /* RSViewController.m */; };
 		05486747196B289600209255 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05486746196B289600209255 /* Images.xcassets */; };
 		0548674E196B289700209255 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548674D196B289700209255 /* XCTest.framework */; };
 		0548674F196B289700209255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0548672E196B289600209255 /* Foundation.framework */; };
 		05486750196B289700209255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05486732196B289600209255 /* UIKit.framework */; };
 		05486758196B289700209255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05486756196B289700209255 /* InfoPlist.strings */; };
 		0548675A196B289700209255 /* RSEmployeeDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486759196B289700209255 /* RSEmployeeDataTests.m */; };
+		05486765196B28D900209255 /* RSEmployeeRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486764196B28D900209255 /* RSEmployeeRecord.m */; };
+		05486768196B2BF700209255 /* RSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486767196B2BF700209255 /* RSTableViewController.m */; };
+		0548676B196B2F9000209255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0548676A196B2F9000209255 /* ViewController.m */; };
+		0548676E196B38B000209255 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0548676D196B38B000209255 /* DetailViewController.m */; };
+		05486771196D9C7500209255 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05486770196D9C7500209255 /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,22 @@
 		0548673D196B289600209255 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
 		0548673E196B289600209255 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
 		05486741196B289600209255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05486743196B289600209255 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
-		05486744196B289600209255 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
 		05486746196B289600209255 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0548674C196B289700209255 /* RSEmployeeDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSEmployeeDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0548674D196B289700209255 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		05486755196B289700209255 /* RSEmployeeDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSEmployeeDataTests-Info.plist"; sourceTree = "<group>"; };
 		05486757196B289700209255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05486759196B289700209255 /* RSEmployeeDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSEmployeeDataTests.m; sourceTree = "<group>"; };
+		05486763196B28D900209255 /* RSEmployeeRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSEmployeeRecord.h; path = ../RSEmployeeRecord.h; sourceTree = "<group>"; };
+		05486764196B28D900209255 /* RSEmployeeRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSEmployeeRecord.m; path = ../RSEmployeeRecord.m; sourceTree = "<group>"; };
+		05486766196B2BF700209255 /* RSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTableViewController.h; sourceTree = "<group>"; };
+		05486767196B2BF700209255 /* RSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTableViewController.m; sourceTree = "<group>"; };
+		05486769196B2F9000209255 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0548676A196B2F9000209255 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0548676C196B38B000209255 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0548676D196B38B000209255 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0548676F196D9C7500209255 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		05486770196D9C7500209255 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,16 @@
 				0548673D196B289600209255 /* RSAppDelegate.h */,
 				0548673E196B289600209255 /* RSAppDelegate.m */,
 				05486740196B289600209255 /* Main.storyboard */,
-				05486743196B289600209255 /* RSViewController.h */,
-				05486744196B289600209255 /* RSViewController.m */,
+				05486769196B2F9000209255 /* ViewController.h */,
+				0548676A196B2F9000209255 /* ViewController.m */,
+				05486766196B2BF700209255 /* RSTableViewController.h */,
+				05486767196B2BF700209255 /* RSTableViewController.m */,
+				0548676C196B38B000209255 /* DetailViewController.h */,
+				0548676D196B38B000209255 /* DetailViewController.m */,
+				0548676F196D9C7500209255 /* EditViewController.h */,
+				05486770196D9C7500209255 /* EditViewController.m */,
+				05486763196B28D900209255 /* RSEmployeeRecord.h */,
+				05486764196B28D900209255 /* RSEmployeeRecord.m */,
 				05486746196B289600209255 /* Images.xcassets */,
 				05486735196B289600209255 /* Supporting Files */,
 			);
@@ -250,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05486768196B2BF700209255 /* RSTableViewController.m in Sources */,
 				0548673B196B289600209255 /* main.m in Sources */,
+				05486765196B28D900209255 /* RSEmployeeRecord.m in Sources */,
+				05486771196D9C7500209255 /* EditViewController.m in Sources */,
 				0548673F196B289600209255 /* RSAppDelegate.m in Sources */,
-				05486745196B289600209255 /* RSViewController.m in Sources */,
+				0548676B196B2F9000209255 /* ViewController.m in Sources */,
+				0548676E196B38B000209255 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +481,7 @@
 				0548675F196B289700209255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05486760196B289700209255 /* Build configuration list for PBXNativeTarget "RSEmployeeDataTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +490,7 @@
 				05486762196B289700209255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

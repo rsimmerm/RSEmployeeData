@@ -7,7 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "DetailViewController.h"
 
-@interface RSTableViewController : UITableViewController
+#define EMPLOYEE_OBJECTS_KEY @"Employee Objects Key"
+
+
+@interface RSTableViewController : UITableViewController<UITableViewDataSource, UITableViewDelegate, ViewControllerDelegate>
+
+@property (strong, nonatomic) NSMutableArray *employeeObjects;
+
+
+- (IBAction)addEmp:(UIBarButtonItem *)sender;
+- (IBAction)reorderEmployees:(UIBarButtonItem *)sender;
 
 @end
+
+
+
+
+
+
+

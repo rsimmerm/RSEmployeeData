@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  EditViewController.m
 //  RSEmployeeData
 //
-//  Created by Ross Simmerman on 7/7/14.
+//  Created by Ross Simmerman on 7/9/14.
 //  Copyright (c) 2014 RossSimmerman. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EditViewController.h"
 
-@interface ViewController ()
+@interface EditViewController ()
 
 @end
 
-@implementation ViewController
+@implementation EditViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +22,7 @@
     }
     return self;
 }
+
 
 - (void)viewDidLoad
 {
@@ -40,26 +41,23 @@
     
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
--(RSEmployeeRecord *)returnNewEmployee
+-(void)updateEmployee
 {
-    RSEmployeeRecord *employeeObject = [[RSEmployeeRecord alloc] init];
-    employeeObject.firstName = self.firstNameField.text;
-    employeeObject.lastName = self.lastNameField.text;
-    employeeObject.wage = [self.wageField.text intValue];
-    employeeObject.position = self.positionField.text;
-    
-    return employeeObject;
+    self.record.firstName = self.firstNameField.text;
+    self.record.lastName = self.lastNameField.text;
+    self.record.wage = [self.wageField.text intValue];
+    self.record.position = self.positionField.text;
 }
+ 
 
-
-#pragma mark - UITextFieldDelegate
+#pragma mark - EditViewControllerDelegate
 
 /* Method is called when the user taps the return key. When this action occurs we tell the textField to dismiss the keyboard. */
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -68,12 +66,11 @@
     return YES;
 }
 
-- (IBAction)addEmployee:(UIBarButtonItem *)sender {
-    [self.delegate didAddEmployee:[self returnNewEmployee]];
+- (IBAction)SaveEditedEmployee:(UIBarButtonItem *)sender
+{
+    [self updateEmployee];
+    [self.delegate didUpdateEmployee];
 }
 
 
-- (IBAction)cancelAdd:(UIButton *)sender {
-    [self.delegate didCancel];
-}
 @end

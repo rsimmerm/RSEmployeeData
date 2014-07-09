@@ -10,4 +10,28 @@
 
 @implementation RSEmployeeRecord
 
+
+/* Designated Initializer */
+-(id)initWithData:(NSDictionary *)data
+{
+    /* Designated Initializer must call the super classes initialization method */
+    self = [super init];
+    
+    /* Setup the object with values from the NSDictionary */
+    if (self){
+        self.firstName = data[EMPLOYEE_FIRST];
+        self.lastName = data[EMPLOYEE_LAST];
+        self.wage = [data[EMPLOYEE_WAGE]intValue];
+        self.position = data[EMPLOYEE_POSITION];
+    }
+    
+    return self;
+}
+
+/* Default initializer calls the new designated initializer initWithData */
+-(id)init
+{
+    self = [self initWithData:nil];
+    return self;
+}
 @end
